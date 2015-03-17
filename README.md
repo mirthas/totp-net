@@ -3,8 +3,8 @@ a little totp c# library + GUI with google authenticator conform QR-Code generat
 
 ## Quickstart
 
-Generate the Actual code for the Secret GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ. The secret haxe to be base32 encodet. 
-In this Example t1 is set to 30sec and we will get 8 digit long code. 
+Generate the Actual code for the Secret GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ. The secret has to be base32 encoded. 
+In this Example t1 is set to 30sec and we will get a 8 digit long code. 
 
 ```c#
 string secret = "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ";
